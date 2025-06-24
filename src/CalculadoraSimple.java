@@ -10,43 +10,49 @@ public class CalculadoraSimple {
         System.out.println("Ingrese el segundo número:");
         int b = scanner.nextInt();
 
-        import java.util.Scanner;
+multiplicacion-feature
+       System.out.println("Seleccione la operación:");
+System.out.println("1. Suma");
+System.out.println("2. Resta");
+System.out.println("3. Multiplicación (Feature: Eli)");
+System.out.println("4. División (Feature: Abi)");
+System.out.print("Opción: ");
+int opcion = scanner.nextInt();
 
-public class CalculadoraSimple {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+switch (opcion) {
+    case 1:
+        // Suma
+        int suma = a + b;
+        System.out.println("Suma: " + suma);
+        break;
 
-        System.out.println("Ingrese el primer número:");
-        int a = scanner.nextInt();
+    case 2:
+        // Resta
+        int resta = a - b;
+        System.out.println("Resta: " + resta);
+        break;
 
-        System.out.println("Ingrese el segundo número:");
-        int b = scanner.nextInt();
+    case 3:
+        // Multiplicación (Funcionalidad de Eliezer)
+        int multiplicacion = a * b;
+        System.out.println("Multiplicación: " + multiplicacion);
+        break;
 
-        System.out.println("Seleccione la operación:");
-        System.out.println("1. Suma");
-        System.out.println("2. Resta");
-        
-        System.out.print("Opción: ");
-        int opcion = scanner.nextInt();
-
-        switch (opcion) {
-            case 1:
-                int suma = a + b;
-                System.out.println("Suma: " + suma);
-                break;
-
-            case 2:
-                int resta = a - b;
-                System.out.println("Resta: " + resta);
-                break;
-
-           
-
-            default:
-                System.out.println("Opción no válida.");
+    case 4:
+        // División (Funcionalidad de Abihail con validación)
+        if (b != 0) {
+            int division = a / b;
+            System.out.println("División: " + division);
+        } else {
+            System.out.println("Error: No se puede dividir entre 0.");
         }
+        break;
 
-        scanner.close();
+    default:
+        System.out.println("Opción no válida. Por favor, seleccione 1, 2, 3 o 4.");
+}
+
+division-feature
     }
 }
 
