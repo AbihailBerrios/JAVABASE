@@ -14,7 +14,6 @@ public class CalculadoraSimple {
         System.out.println("1. Suma");
         System.out.println("2. Resta");
         System.out.println("3. División");
-        System.out.println("4. Multiplicación");
         int opcion = scanner.nextInt();
         
         switch (opcion) {
@@ -33,11 +32,13 @@ public class CalculadoraSimple {
                 } else {
                     System.out.println("Error: No se puede dividir entre 0.");
                 }
+                break; 
+            default:
+                System.out.println("Opción no válida. Por favor, seleccione 1, 2 o 3.");
                 break;
-            
+            }
 
-        scanner.close();
-
-        
+        scanner.close();           
+      
     }
-}}
+}
