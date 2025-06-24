@@ -25,7 +25,11 @@ public class CalculadoraSimple {
             case 2://operacion resta
                 int resta = a - b;  
                 System.out.println("Resta: " + resta);
-                break;    
+                break;   
+            case 3://operacion division
+                int division = a / b;
+                System.out.println("División: " + division);
+                break; 
         
 
         // Resta
