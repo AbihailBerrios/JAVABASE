@@ -13,7 +13,9 @@ public class CalculadoraSimple {
         System.out.println("Seleccione la operación:");
         System.out.println("1. Suma");
         System.out.println("2. Resta");
-        
+        System.out.println("3. División");
+
+
         // Suma
         int suma = a + b;
         System.out.println("Suma: " + suma);
