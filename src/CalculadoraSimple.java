@@ -14,11 +14,13 @@ public class CalculadoraSimple {
         System.out.println("1. Suma");
         System.out.println("2. Resta");
         System.out.println("3. División");
-
-
-        // Suma
-        int suma = a + b;
-        System.out.println("Suma: " + suma);
+        
+        switch (opcion) {
+            case 1://operacion de suma
+                int suma = a + b;
+                System.out.println("Suma: " + suma);
+                break;
+        
 
         // Resta
         int resta = a - b;
