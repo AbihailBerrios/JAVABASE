@@ -27,17 +27,17 @@ public class CalculadoraSimple {
                 System.out.println("Resta: " + resta);
                 break;   
             case 3://operacion division
-                int division = a / b;
-                System.out.println("División: " + division);
-                break; 
-        
-
-        // Resta
-        int resta = a - b;
-        System.out.println("Resta: " + resta);
+                if (b != 0) {
+                    int division = a / b;
+                    System.out.println("División: " + division);
+                } else {
+                    System.out.println("Error: No se puede dividir entre 0.");
+                }
+                break;
+            
 
         scanner.close();
 
         
     }
-}
+}}
