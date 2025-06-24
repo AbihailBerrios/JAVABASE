@@ -38,7 +38,8 @@ public class CalculadoraSimple {
                 break;
             }
 
-        scanner.close();           
+        scanner.close();  
+        System.out.println("Gracias por usar la calculadora simple.");         
       
     }
 }
