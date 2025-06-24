@@ -22,6 +22,10 @@ public class CalculadoraSimple {
                 int suma = a + b;
                 System.out.println("Suma: " + suma);
                 break;
+            case 2://operacion resta
+                int resta = a - b;  
+                System.out.println("Resta: " + resta);
+                break;    
         
 
         // Resta
