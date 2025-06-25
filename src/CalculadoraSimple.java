@@ -9,6 +9,26 @@ public class CalculadoraSimple {
 
         System.out.println("Ingrese el segundo número:");
         int b = scanner.nextInt();
+<<<<<<< multiplicacion-feature
+multiplicacion-feature
+
+        // Suma
+        int suma = a + b;
+        System.out.println("Suma: " + suma);
+
+        // Resta
+        int resta = a - b;
+        System.out.println("Resta: " + resta);
+
+        //multiplicacion
+        int multiplicacion = a * b;
+        System.out.println("Multiplicación: " + multiplicacion);
+
+        
+       
+      
+        //operacion division
+=======
                            
         //operacion suma
             int suma = a + b;
@@ -17,6 +37,7 @@ public class CalculadoraSimple {
             int resta = a - b;  
             System.out.println("Resta: " + resta);
         //operacion division (abihail)
+>>>>>>> master
             if (b == 0) {
             int division = a / b;
             System.out.println("Division: " + division);
@@ -30,6 +51,10 @@ public class CalculadoraSimple {
         scanner.close();  
         System.out.println("Gracias por usar la calculadora simple.");         
       
+<<<<<<< multiplicacion-feature
+>>>>>> division-feature
+=======
 
+>>>>>>> master
     }
 }
