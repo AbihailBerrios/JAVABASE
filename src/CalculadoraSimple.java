@@ -9,35 +9,21 @@ public class CalculadoraSimple {
 
         System.out.println("Ingrese el segundo número:");
         int b = scanner.nextInt();
-
-        System.out.println("Seleccione la operación:");
-        System.out.println("1. Suma");
-        System.out.println("2. Resta");
-        System.out.println("3. División");
-        int opcion = scanner.nextInt();
-        
-        switch (opcion) {
-            case 1://operacion suma
-                int suma = a + b;
-                System.out.println("Suma: " + suma);
-                break;
-            case 2://operacion resta
-                int resta = a - b;  
-                System.out.println("Resta: " + resta);
-                break;   
-            case 3://operacion division
-                if (b != 0) {
-                    int division = a / b;
-                    System.out.println("División: " + division);
-                } else {
-                    System.out.println("Error: No se puede dividir entre 0.");
-                }
-                break; 
-            default:
-                System.out.println("Opción no válida. Por favor, seleccione 1, 2 o 3.");
-                break;
+               
+        //operacion suma
+            int suma = a + b;
+            System.out.println("Suma: " + suma);
+        //operacion resta
+            int resta = a - b;  
+            System.out.println("Resta: " + resta);
+        //operacion division
+            if (b == 0) {
+            int division = a / b;
+            System.out.println("Division: " + division);
+            } else {
+            System.out.println("Error: No se puede dividir entre 0.");
             }
-
+                      
         scanner.close();  
         System.out.println("Gracias por usar la calculadora simple.");         
       
