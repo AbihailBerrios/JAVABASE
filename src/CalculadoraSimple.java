@@ -9,13 +9,23 @@ public class CalculadoraSimple {
 
         System.out.println("Ingrese el segundo número:");
         int b = scanner.nextInt();
-               
-        //operacion suma
-            int suma = a + b;
-            System.out.println("Suma: " + suma);
-        //operacion resta
-            int resta = a - b;  
-            System.out.println("Resta: " + resta);
+multiplicacion-feature
+
+        // Suma
+        int suma = a + b;
+        System.out.println("Suma: " + suma);
+
+        // Resta
+        int resta = a - b;
+        System.out.println("Resta: " + resta);
+
+        //multiplicacion
+        int multiplicacion = a * b;
+        System.out.println("Multiplicación: " + multiplicacion);
+
+        
+       
+      
         //operacion division
             if (b == 0) {
             int division = a / b;
@@ -27,5 +37,6 @@ public class CalculadoraSimple {
         scanner.close();  
         System.out.println("Gracias por usar la calculadora simple.");         
       
+>>>>>> division-feature
     }
 }
