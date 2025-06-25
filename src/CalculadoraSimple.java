@@ -25,14 +25,7 @@ multiplicacion-feature
 
         
        
-        
       
-        //operacion suma
-            int suma = a + b;
-            System.out.println("Suma: " + suma);
-        //operacion resta
-            int resta = a - b;  
-            System.out.println("Resta: " + resta);
         //operacion division
             if (b == 0) {
             int division = a / b;
